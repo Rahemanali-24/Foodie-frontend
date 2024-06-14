@@ -15,7 +15,6 @@ const Categories = () => {
            <p className='subtitle'>Customer Favorites</p>
            <h2 className='title'>Popular Categories</h2>
       </div>
-
       {/* category cards  */}
       <div className='flex flex-col sm:flex-row flex-wrap gap-8 justify-around items-center mt-12'>
         {
@@ -33,8 +32,6 @@ const Categories = () => {
           ))
         }
       </div>
-
-
     </div>
   )
 }
